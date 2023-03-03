@@ -24,7 +24,7 @@ public class Student {
     public void setId(String id) {
         //the id can't be less than 7 digits
         if (id.length()<7) {
-            System.out.println("The id is not valid");
+            System.out.println("The id is not valid.");
             return;
         }
         this.id = id;
@@ -33,7 +33,7 @@ public class Student {
     public void setGrade(double grade) {
         //the grade can't be less than 0 or more than 20
         if (grade>20 || grade<0) {
-            System.out.println("The grade is not valid");
+            System.out.println("The grade is not valid.");
             return;
         }
         this.grade = grade;
